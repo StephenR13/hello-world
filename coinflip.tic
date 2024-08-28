@@ -1,0 +1,23 @@
+--A WIP lua script coin flipper for TIC-80 
+
+y=8
+c=0 --counter to clear screen when text is full
+cls()
+
+print("press 'Z' to flip a coin!")
+
+--TODO: screen clear on c=15
+--having trouble resetting c back to 0
+--after calling cls()
+--could I instead move text up?
+function TIC()
+	if btnp(4) then
+		y=y+8
+		c=c+1
+		flip=math.random(1,2)
+			if flip==1 then
+			print("It's Heads!",0,y)
+			else print ("It's Tails!",0,y)
+		end
+	end
+end
