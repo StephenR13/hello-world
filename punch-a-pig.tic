@@ -1,0 +1,27 @@
+--WIP clicker game coded in Lua for TIC-80
+playerDamage=1
+playerHealth=50
+
+playerxp=0
+xptolvl=4
+
+lvl=1
+
+pigDamage=0
+pigHealth=4
+pigxp=1
+
+treeDamage=0
+treeHealth=16
+
+playerHasAxe=false
+isPorkCooked=false
+
+function killPig()
+	 playerxp=playerxp+pigxp checkxp() end
+
+function checkxp()
+ if playerxp>xptolvl playerxp=
+
+
+function lvlup() 
